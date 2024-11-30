@@ -1,0 +1,71 @@
+.input_category {
+  width: 60%;
+  margin-left: 10px;
+}
+.input_card {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+.image_preview_box {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image_preview_box .image_preview {
+  width: 100%;
+  height: 100%;
+  object-fit: fit;
+}
+.image_preview_icon {
+  width: 100px;
+  height: 100px;
+}
+.label {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding: 6px;
+}
+.card-2 {
+  height: 60vh;
+  margin-top: 10px;
+}
+.card-subcategory {
+  height: 40vh;
+  margin-top: 10px;
+  overflow-y: auto;
+}
+.edit_button {
+  border: none;
+  padding: 5px;
+  margin: 5px 4px;
+}
+.save_button {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 3px;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+.search_input {
+  background: #f85606;
+  padding: 2px;
+  border-radius: 4px;
+}
+.search_input input {
+  outline: none;
+
+  border: none;
+}
+.search_button {
+  outline: none;
+  border: none;
+  background: none;
+  margin: 2px;
+}

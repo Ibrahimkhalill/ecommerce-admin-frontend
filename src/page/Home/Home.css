@@ -1,0 +1,48 @@
+.box {
+  width: 22%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.box img {
+  width: 80px;
+}
+
+.item-1 {
+  background-color: #4caf50; /* Green */
+  color: white; /* White text color for contrast */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.item-2 {
+  background-color: #2196f3; /* Blue */
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.item-3 {
+  background-color: #ff9800; /* Orange */
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.item-4 {
+  background-color: #9c27b0; /* Purple */
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 748px) {
+  .box {
+    width: 100%;
+  }
+}

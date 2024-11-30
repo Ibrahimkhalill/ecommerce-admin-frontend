@@ -1,0 +1,54 @@
+.product_name_table {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px; /* Adjust the width as needed */
+}
+.product-image {
+  height: 70px;
+}
+.product_details_table {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+.action-buttons {
+  text-align: center;
+}
+.action-buttons button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+thead {
+  text-align: center;
+  background: #f85606;
+  color: white;
+}
+.table_height {
+  height: 60vh;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+thead tr {
+  border-bottom: none;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 748px) {
+  .search_input {
+    width: 100% !important;
+  }
+  .search_input input {
+    width: 100% !important;
+  }
+  .table_height {
+    height: 65vh !important;
+  }
+  
+}

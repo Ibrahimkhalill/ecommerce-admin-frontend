@@ -1,0 +1,60 @@
+.input_category{
+    width: 60%;
+    margin-left: 10px;
+}
+.card-1{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.label{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 6px;
+}
+.card-2{
+    height: 57vh;
+    margin-top: 10px;
+}
+.card-3{
+    height: 50vh;
+    margin-top: 10px;
+    overflow-y: auto;
+}
+.card-subcategory{
+    height: 40vh;
+    margin-top: 10px;
+    overflow-y: auto;
+}
+.edit_button{
+   border: none;
+   padding: 5px;
+   margin: 5px 4px;
+}
+.save_button{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3px;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+.search_input{
+    background: #f85606;
+    padding: 2px;
+    border-radius: 4px;
+}
+.search_input input{
+    outline: none ;
+    
+    border: none;
+    
+}
+.search_button{
+    outline: none;
+    border: none;
+    background: none;
+    margin: 2px;
+}
